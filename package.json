@@ -1,0 +1,53 @@
+{
+  "_from": "github:next-theme/hexo-next-valine",
+  "_id": "hexo-next-valine@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/hexo-next-valine",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "next-theme/hexo-next-valine",
+    "rawSpec": "next-theme/hexo-next-valine",
+    "saveSpec": "github:next-theme/hexo-next-valine",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:next-theme/hexo-next-valine#037e404c471d6ecd70130f9fccc04b5492504abe",
+  "_spec": "next-theme/hexo-next-valine",
+  "_where": "E:\\资源\\blog\\版本\\1.1.0\\blog",
+  "author": {
+    "name": "Mimi",
+    "email": "stevenjoezhang@gmail.com",
+    "url": "https://zhangshuqiao.org"
+  },
+  "bugs": {
+    "url": "https://github.com/next-theme/hexo-next-valine/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@next-theme/utils": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "Valine comment system for NexT.",
+  "homepage": "https://github.com/next-theme/hexo-next-valine#readme",
+  "keywords": [
+    "Hexo",
+    "NexT"
+  ],
+  "license": "LGPL-3.0",
+  "main": "index.js",
+  "name": "hexo-next-valine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/next-theme/hexo-next-valine.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
