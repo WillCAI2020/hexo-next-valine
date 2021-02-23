@@ -5,8 +5,8 @@ valine:
   appId: # Your leancloud application appid
   appKey: # Your leancloud application appkey
   serverURLs: # When the custom domain name is enabled, fill it in here
-  placeholder: Just go go # Comment box placeholder
-  avatar: mm # Gravatar style
+  placeholder: "填写邮箱可以及时收到回复哦(●'◡'●)" # Comment box placeholder
+  avatar: 'wavatar' # Gravatar style
   meta: [nick, mail, link] # Custom comment header
   pageSize: 10 # Pagination size
   lang: # Language, available values: en, zh-cn
@@ -16,3 +16,7 @@ valine:
   recordIP: false # Whether to record the commenter IP
   enableQQ: false # Whether to enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: [] # Set required fields: [nick] | [nick, mail]
+  master: ''    #博主邮箱md5
+  tagMeta: ["博主","小伙伴","访客"]     #标识字段名
+  friends:  [""]                        #小伙伴邮箱Md5
+  metaPlaceholder: {"nick":"昵称/QQ号","mail":"邮箱（完全保密）"}
