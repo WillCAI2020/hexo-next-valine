@@ -1,7 +1,7 @@
 {%- set serverURLs = config.valine.serverURLs or 'https://' + config.valine.appId.slice(0, 8) | lower + '.api.lncldglobal.com' %}
 <script>
 NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/gh/WillCAI2020/CDN/js/valine.min.js', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/gh/WillCAI2020/CDN@1.1.4/js/valine.min.js', () => {
     new Valine(Object.assign({{ config.valine | safedump }}, {
       el: '#valine-comments',
       path: {{ url_for(page.path) | replace(r/index\.html$/, '') | safedump }},
